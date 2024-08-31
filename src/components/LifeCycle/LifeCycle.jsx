@@ -1,5 +1,5 @@
-import React from 'react';
-import style from './LifeCycle.module.css';
+import React from "react";
+import style from "./LifeCycle.module.css";
 
 export class LifeCycle extends React.Component {
   render() {
@@ -18,7 +18,7 @@ export class LifeCycle extends React.Component {
             </ul>
           </div>
 
-          <div className='stage'>
+          <div className="stage">
             <h2 className={style.title}>Этапы</h2>
             <ul className={style.list}>
               <li>Render</li>

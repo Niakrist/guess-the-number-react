@@ -154,7 +154,6 @@
     "no-new-object": "error",
     "no-tabs": "error",
     "no-trailing-spaces": "error",
-    "object-curly-spacing": "error",
     "one-var": [
       "error",
       {
@@ -166,13 +165,7 @@
     "operator-linebreak": ["error", "after"],
     "padded-blocks": ["error", "never"],
     "quote-props": ["error", "consistent"],
-    "quotes": [
-      "error",
-      "single",
-      {
-        "allowTemplateLiterals": true
-      }
-    ],
+    "quotes": ["error", "double"],
     "semi": "error",
     "semi-spacing": "error",
     "space-before-blocks": "error",
